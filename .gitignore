@@ -1,0 +1,52 @@
+# Dependências
+node_modules/
+.pnpm-store/
+
+# Builds e caches
+dist/
+.vite/
+.cache/
+coverage/
+*.tsbuildinfo
+vite.config.js
+vite.config.d.ts
+
+# Variáveis de ambiente e configurações locais
+.env
+.env.*
+!.env.example
+*.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Testes e relatórios
+playwright-report/
+test-results/
+
+# Editores e IDEs
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Arquivos temporários
+*.tmp
+*.temp
+*.bak
+*~
